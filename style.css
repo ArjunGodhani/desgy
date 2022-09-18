@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Urbanist';
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 4%;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+nav ul li {
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 5px;
+    text-align: center;
+
+
+
+}
+
+
+nav ul li a {
+    margin-top: -10px;
+    color: #FFF;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 1px;
+    color: rgba(0, 0, 0, 0.75)
+}
+
+nav ul li a:hover {
+    color: #DC7633;
+}
+
+.cta {
+
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+}
+
+.cta:hover {
+    background-color: dodgerblue;
+    color: #FFF;
+}
+
+h6 {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
+    margin-left: 75px;
+    margin-top: 50px;
+    color: #0066FF;
+
+
+}
+
+h6 span {
+    color: rgba(0, 102, 255, 0.15);
+    border-radius: 50px;
+}
+
+h1 {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 25px;
+
+    /* black */
+
+    color: #241A24;
+
+}
+
+button {
+    position: absolute;
+    width: 130px;
+    height: 34px;
+    left: 80px;
+    top: 425px;
+
+    /* blue */
+
+    background: #0066FF;
+    border-radius: 50px;
+    border-color: #0066FF;
+    color: white;
+    font-size: smaller;
+
+}
+
+.img1 {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    left: 700px;
+    top: 100px;
+    z-index: 1;
+}
+
+.img2 {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    left: 610px;
+    top: 130px;
+    z-index: 2;
+}
+
+.img3 {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    left: 610px;
+    top: 180px;
+    z-index: 3;
+}
